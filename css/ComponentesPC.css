@@ -151,17 +151,21 @@ section {
     align-items: center;
     background-color: white;
     width: 100%;
+   
     background-color: rgba(0, 0, 0, 0.452);
     padding-top: 90px;
     padding-bottom: 25px;
 }
 .input-seach{
-    width: 90%;
+    width: 50%;
+    border-radius: 15px;
+    
 }
 .search-bar{
     border-radius: 15px;
     display: flex;
     width: 60%;
+    height: 40px;
     background-color: white;
     
 }
@@ -276,7 +280,9 @@ footer {
         width: 100px; 
     
     }
-    
+    .submit {
+        display: none;
+    }
     .logo-index {
         
         width: 100%;
@@ -404,6 +410,11 @@ footer {
         padding-top: 50px;
     }
 }
+@media only screen and (max-width: 1200px) {
+    .img-box{
+        width: 40%;
+    }
+}
 @media only screen and (max-width: 912px) {
     .img-box{
         display: flex;
@@ -426,4 +437,5 @@ footer {
         font-size: 30px;
         text-align: center;
     }
+
 }
